@@ -1,0 +1,100 @@
+.header {
+  width: 100%;
+  height: 50px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgb(5, 223, 223);
+  line-height: 0;
+  font-family: 'Trebuchet MS';
+  border-color: #e7e7e7;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 9%);
+  z-index: 10;
+}
+
+.header h2 {
+  font-size: 16px;
+  float: right;
+  margin: 30px 60px 0 0;
+  color: #019267;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.heading-title h1 {
+  font-size: 48px;
+}
+
+.heading-title h3 {
+  margin-top: 100px;
+  font-size: 21px;
+}
+
+.musics {
+  margin-top: 45px auto;
+  text-align: center;
+}
+
+.formControl {
+  margin-top: 48px;
+}
+
+.formControl p {
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+.music {
+  float: left;
+  width: 25%;
+}
+
+.music img {
+  float: left;
+  width: 80%;
+  position: relative;
+  border: 2px solid rgba(25, 88, 46, 0.7);
+  border-radius: 8px;
+}
+
+.music p {
+  float: left;
+  width: 80%;
+  margin-top: 20px;
+  font-size: 15px;
+} 
+
+.formControl input,
+.formControl textarea {
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #8491a5;
+  width: 440px;
+  font-size: 16px;
+  padding: 10px;
+  border: 1.5px solid #019267;
+  border-radius: 3px;
+  display: block;
+}
+
+.formControl input {
+  height: 48px;
+}
+
+.formControl textarea {
+  height: 96px;
+}
+
+.formControl input[type=submit] {
+  color: #fff;
+  width: 184px;
+  height: 48px;
+  font-size: 13px;
+  background-color: #019267;
+  border: none;
+  margin-top: 32px;
+  border-radius: 24px;
+}
