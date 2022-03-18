@@ -1,22 +1,14 @@
 import React from "react";
 import "./Stylesheet.css";
-import { toast } from "react-toastify";
+import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 class PlaylistForm extends React.Component {
-    // constructor(props) {
-    //     super(props);
-    //     this.state = {
-    //       isSubmitted: false,
-    //     };
-    //   }
-
-    // handleSubmit() {
-    // this.setState({isSubmitted: true});
-    // }
     render() {
         const notify = () => {
-            toast("Success");
+            toast.success("Success", {
+                position: toast.POSITION.TOP_CENTER,
+                theme: "colored"});
         }
 
         return (
@@ -40,6 +32,7 @@ class PlaylistForm extends React.Component {
                         onClick={notify}
                     />
                 </div>
+                <ToastContainer />
             </div>
         );
     }
